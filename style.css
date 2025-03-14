@@ -44,11 +44,21 @@ body {
     background-color: #fff;
 }
 
-#reset-btn {
+#reset-btn,#new-btn{
     padding: 1rem;
     font-size: 1.25rem;
     background-color: rgb(37, 37, 37);
     color: #fff;
     border-radius: 1rem;
     border: none;
+}
+#msg{
+    color:yellow;
+    font-size: 5vmin;
+}
+.msg-container{
+height: 30vmin;
+}
+.hide{
+    display: none;
 }
