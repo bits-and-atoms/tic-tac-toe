@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9AE5E6;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    /*70 percent of view port height available for container itself*/
+    display: flex;
+    /*boxes in one line*/
+    flex-wrap: wrap;
+    /*boxes if no space available go to new line*/
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    /*60 percent of view port height available for game board*/
+    width: 60vmin;
+    display: flex;
+    /*boxes in one line*/
+    flex-wrap: wrap;
+    /*boxes if no space available go to new line*/
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    /*18 percent of game box height available for each box 3*18=54 */
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem black;
+    font-size: 8vmin;
+    color: #b0413e;
+}
+
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
