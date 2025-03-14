@@ -11,6 +11,22 @@ const winpattern = [
     [0, 4, 8], [2, 4, 6]
 ];
 
+resetbtn.addEventListener("click",(e)=>{
+    buttons.forEach((button) => {
+        button.innerHTML = "";
+        button.disabled = false;
+    })
+    msgcontainer.classList.add("hide");
+})
+
+newgamebtn.addEventListener("click",(e)=>{
+    buttons.forEach((button) => {
+        button.innerHTML = "";
+        button.disabled = false;
+    })
+    msgcontainer.classList.add("hide");
+})
+
 buttons.forEach((button) => {
     button.addEventListener("click", (e) => {
         // console.log("clicked");
