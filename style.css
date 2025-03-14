@@ -41,6 +41,7 @@ body {
     box-shadow: 0 0 1rem black;
     font-size: 8vmin;
     color: #b0413e;
+    background-color: #fff;
 }
 
 #reset-btn {
